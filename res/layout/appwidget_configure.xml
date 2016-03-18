@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+  <!--   <TextView
+        android:id="@+id/textrf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score_refresh_rate_text" />
+
+    <EditText
+        android:id="@+id/refresh_rate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textrf" >
+
+        <requestFocus />
+    </EditText> -->
+
+    <TextView
+        android:id="@+id/config_instruction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/appwidget_configure_instructions"
+        android:textSize="18sp" />
+    
+        <ListView
+        android:id="@+id/scoreList"
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/config_instruction" >
+
+    </ListView>
+
+     <com.google.ads.AdView
+         android:id="@+id/adView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         ads:adSize="BANNER"
+         ads:adUnitId="a14efba75416a9c"
+         ads:loadAdOnCreate="true"
+         ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" >
+     </com.google.ads.AdView>
+
+     <Button
+         android:id="@+id/save_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/scoreList"
+         android:layout_centerHorizontal="true"
+         android:text="@android:string/ok" />
+
+     <TextView
+         android:id="@+id/no_live_match"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+   android:layout_alignParentLeft="true"
+        android:layout_below="@+id/config_instruction"
+        android:textSize="18sp"
+          />
+    
+</RelativeLayout>

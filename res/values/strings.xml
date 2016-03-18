@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Welcome Cricket Lovers!</string>
+    <string name="app_name">Cricket Live Score</string>
+     <string name="ok">Ok</string>
+    <string name="score_url">http://pipes.yahoo.com/pipes/pipe.run?_id=060e8ba919bf00d912a17ac62568ced9</string>
+<string name="india_aus">http://pipes.yahoo.com/pipes/pipe.run?_id=8296164508fc7b2ce70ee48512a721c8</string>
+<string name="appwidget_configure_instructions">
+Please select the matches to show in the widget!
+</string>
+<string name="select_matches">
+Please select atleast one match from the list to show in the widget!
+</string>
+<string name="live_match_alert">
+No Live matches to display!
+</string>
+<string name="no_internet">
+This widget needs internet access to show the live cricket scores. Please enable internet / data connection. Thanks!
+</string>
+<string name="appwidget_prefix_default">
+No matches are selected to show in the Widget!
+</string>
+<string name="score_refresh_rate_text">
+Enter the refresh rate in minutes
+</string>
+<string name="appwidget_text_format">
+<xliff:g id="prefix">
+%1$s
+</xliff:g>
+: 
+<xliff:g id="time">
+%2$s
+</xliff:g>
+</string>
+</resources>
